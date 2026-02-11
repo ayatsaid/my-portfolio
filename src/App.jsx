@@ -16,7 +16,7 @@ function App() {
             <section id="home"><Mainbar /></section>
             <section id="about"><AboutMe /></section>
             <section id="portfolio"><Service /></section>
-            <section id="blog"><SkillsSection /></section>
+            <section id="skills"><SkillsSection /></section>
             <section id="resume"><Resume /></section>
             <section id="contact"><Footer /></section>
         </div>

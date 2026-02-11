@@ -36,7 +36,7 @@ const Header = () => {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex items-center gap-8">
-                    {['HOME', 'ABOUT', 'RESUME', 'SERVICE', 'SKILLS'].map((item) => (
+                    {['HOME', 'ABOUT', 'RESUME', 'SERVICE', 'SKILLS', 'CONTACT'].map((item) => (
                         <a
                             key={item}
                             href={`#${item.toLowerCase()}`}
