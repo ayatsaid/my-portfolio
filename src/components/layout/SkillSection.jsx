@@ -13,7 +13,7 @@ const skills = [
 
 const SkillsSection = () => {
     return (
-        <section className="bg-[#0a0e17] text-white min-h-screen py-5 px-6 md:px-20 relative overflow-hidden">
+        <section className="bg-[#0a0e17] h-[100vh] text-white min-h-screen py-5 px-6 md:px-20 relative overflow-hidden">
 
             {/* Background Large Text */}
             <div className="relative flex flex-col items-center justify-center mb-16">
