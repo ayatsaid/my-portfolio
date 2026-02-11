@@ -45,7 +45,7 @@ export const personalInfo = {
 export const socialLinks = [
     {
         name: "GitHub",
-        url: "https://github.com/ayatsaid/MazaajiApp2025",
+        url: "https://github.com/ayatsaid",
         icon: "FaGithub"
     },
     {
