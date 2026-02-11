@@ -36,7 +36,7 @@ const Header = () => {
 
                 {/* Desktop Navigation */}
                 <nav className="hidden lg:flex items-center gap-8">
-                    {['HOME', 'ABOUT', 'RESUME', 'PORTFOLIO', 'BLOG', 'CONTACT'].map((item) => (
+                    {['HOME', 'ABOUT', 'RESUME', 'PORTFOLIO', 'CONTACT'].map((item) => (
                         <a
                             key={item}
                             href={`#${item.toLowerCase()}`}
@@ -48,7 +48,7 @@ const Header = () => {
                     <div className="w-px h-4 bg-gray-300 mx-2"></div>
                     <div className="flex items-center gap-2 group cursor-pointer">
                         <i className="fa-solid fa-phone text-[#f5c75d] group-hover:text-white transition-colors"></i>
-                        <span className="font-medium text-gray-300 group-hover:text-[#f5c75d] transition-colors">+1 971 234 1508</span>
+                        <span className="font-medium text-gray-300 group-hover:text-[#f5c75d] transition-colors">+972-567423294</span>
                     </div>
                 </nav>
 
@@ -78,10 +78,10 @@ const Header = () => {
 
                     <div className="mt-12 flex flex-col items-center gap-4">
                         <div className="w-16 h-1 bg-[#f5c75d] rounded-full"></div>
-                        <div className="flex items-center gap-3 text-white">
+                        {/* <div className="flex items-center gap-3 text-white">
                             <i className="fa-solid fa-phone text-[#f5c75d]"></i>
                             <span className="font-medium text-xl">+972 567423294</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
