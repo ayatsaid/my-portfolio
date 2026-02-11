@@ -80,7 +80,7 @@ const Header = () => {
                         <div className="w-16 h-1 bg-[#f5c75d] rounded-full"></div>
                         <div className="flex items-center gap-3 text-white">
                             <i className="fa-solid fa-phone text-[#f5c75d]"></i>
-                            <span className="font-medium text-xl">+1 971 234 1508</span>
+                            <span className="font-medium text-xl">+972 567423294</span>
                         </div>
                     </div>
                 </div>

@@ -45,22 +45,22 @@ export const personalInfo = {
 export const socialLinks = [
     {
         name: "GitHub",
-        url: "https://github.com/yourusername",
+        url: "https://github.com/ayatsaid/MazaajiApp2025",
         icon: "FaGithub"
     },
     {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/yourusername",
+        url: "https://www.linkedin.com/in/ayat-abu-said-6028b9b7/",
         icon: "FaLinkedin"
     },
     {
-        name: "Twitter",
-        url: "https://twitter.com/yourusername",
-        icon: "FaTwitter"
+        name: "Upwork",
+        url: "https://www.upwork.com/freelancers/~013f92412f8891ec1e",
+        icon: "FaUpwork"
     },
     {
-        name: "Email",
-        url: "mailto:your.email@example.com",
-        icon: "FaEnvelope"
+        name: "Whatsapp",
+        url: "https://wa.me/967774030408",
+        icon: "FaWhatsapp"
     }
 ];

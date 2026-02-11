@@ -1,4 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { socialLinks } from '../../data/personal';
+
+const iconMap = {
+    FaGithub: 'fa-brands fa-github',
+    FaLinkedin: 'fa-brands fa-linkedin-in',
+    FaUpwork: 'fa-brands fa-upwork',
+    FaWhatsapp: 'fa-brands fa-whatsapp',
+};
 
 const Mainbar = () => {
 
@@ -48,16 +56,20 @@ const Mainbar = () => {
                 </div>
 
                 <div className={"absolute bottom-0   left-1/2  -translate-x-1/2 flex gap-4   px-8 py-4 rounded-full bg-gray-800"}>
-                    {['facebook', 'whatsapp', 'upwork', 'linkedin'].map(icon => (
+                    {socialLinks.map(link => (
                         <a
-                            key={icon}
+                            key={link.name}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={link.name}
                             className="w-11 h-11 md:w-12 md:h-12
                                       flex items-center justify-center
                                       rounded-full border border-white/20
-                                      text-white hover:bg-yellow-400 hover:text-black
-                                      transition"
+                                      text-white hover:bg-[#f5c75d] hover:text-[#0b101d] hover:border-[#f5c75d]
+                                      transition-all duration-300"
                         >
-                            <i className={`fab fa-${icon}`}></i>
+                            <i className={iconMap[link.icon] || 'fa-solid fa-link'}></i>
                         </a>
                     ))}
                 </div>

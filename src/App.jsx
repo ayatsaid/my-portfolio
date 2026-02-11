@@ -5,6 +5,7 @@ import AboutMe from './components/layout/AboutMe'
 import Service from './components/layout/Service'
 import SkillsSection from './components/layout/SkillSection'
 import Resume from './components/layout/Resume'
+import Footer from './components/layout/Footer'
 import './index.css'
 
 
@@ -17,6 +18,7 @@ function App() {
             <Service />
             <SkillsSection />
             <Resume />
+            <Footer />
         </div>
     )
 }
