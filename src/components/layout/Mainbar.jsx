@@ -50,7 +50,7 @@ const Mainbar = () => {
                 </div>
 
                 <div>
-                    <button className="text-base md:text-lg text-[#070d1a] font-semibold bg-[#f5c75d] hover:bg-[#e0b550] transition-colors rounded-full px-10 py-4 shadow-lg shadow-yellow-500/20">
+                    <button onClick={() => window.location.href = "https://wa.me/967774030408"} className="text-base md:text-lg text-[#070d1a] font-semibold bg-[#f5c75d] hover:bg-[#e0b550] transition-colors rounded-full px-10 py-4 shadow-lg shadow-yellow-500/20">
                         Hire Me
                     </button>
                 </div>
